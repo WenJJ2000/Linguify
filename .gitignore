@@ -9,3 +9,5 @@ package-lock.json
 test/vtl/__tests__
 test/vtl/__mocks__
 .env
+apiConfig.js
+firebaseConfig.js
