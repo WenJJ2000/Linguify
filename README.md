@@ -8,6 +8,22 @@ clone the repo to your local
 Navigate to your folder and install dependencies
 `npm install`
 
+Create your Config file in the src folder:
+
+`firebaseConfig.js`
+```
+export const firebaseConfig = {
+  COPY_FROM_FIREBASE
+};
+```
+
+`apiConfig.js`
+```
+export const API_KEY = "GOOGLE_TRANSLATE_API_KEY";
+export const API_HOST = "GOOGLE_TRANSLATE_HOST_LINK";
+export const BASE_URL = "YOUR_HOST_URL"
+```
+
 Run the app
 `npm run dev`
 
